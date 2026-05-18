@@ -1,11 +1,53 @@
 {
   "rules": [
-    {"id": "100001", "ttp": "T1566", "description": "Phishing email detected", "ioc_type": "domain"},
-    {"id": "100002", "ttp": "T1059", "description": "Suspicious script execution", "ioc_type": "hash"},
-    {"id": "100003", "ttp": "T1003", "description": "Credential dumping attempt", "ioc_type": "hash"},
-    {"id": "100004", "ttp": "T1071", "description": "C2 communication detected", "ioc_type": "ip"},
-    {"id": "100005", "ttp": "T1486", "description": "Ransomware encryption activity", "ioc_type": "hash"},
-    {"id": "100006", "ttp": "T1190", "description": "Exploit kit public facing app", "ioc_type": "ip"},
-    {"id": "100007", "ttp": "T1078", "description": "Valid account abuse detected", "ioc_type": "domain"}
+    {
+      "id": "100001",
+      "ttp": "T1566",
+      "description": "Phishing email detected",
+      "ioc_type": "domain"
+    },
+    {
+      "id": "100002",
+      "ttp": "T1059",
+      "description": "Suspicious script execution",
+      "ioc_type": "hash"
+    },
+    {
+      "id": "100003",
+      "ttp": "T1003",
+      "description": "Credential dumping attempt",
+      "ioc_type": "hash"
+    },
+    {
+      "id": "100004",
+      "ttp": "T1071",
+      "description": "C2 communication detected",
+      "ioc_type": "ip"
+    },
+    {
+      "id": "100005",
+      "ttp": "T1486",
+      "description": "Ransomware encryption activity",
+      "ioc_type": "hash"
+    },
+    {
+      "id": "100006",
+      "ttp": "T1190",
+      "description": "Exploit kit public facing app",
+      "ioc_type": "ip"
+    },
+    {
+      "id": "100007",
+      "ttp": "T1078",
+      "description": "Valid account abuse detected",
+      "ioc_type": "domain"
+    },
+    {
+      "id": "100008",
+      "ttp": "T1203",
+      "description": "Execution - Exploitation for client execution",
+      "ioc_type": "auto",
+      "added": "2026-05-18"
+    }
   ]
 }
